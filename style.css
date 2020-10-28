@@ -10,7 +10,7 @@ html {
 
 .btn-primary:hover {
     background-color: #fff;
-    color: blue;
+    color: #0066ff;
     transition: all .3s ease 0s;
     transform: translateY(-3px);
 }
