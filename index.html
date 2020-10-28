@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- dev icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        /* Button hover effect */
+        .btn-primary {
+            transition: all .3s ease-in-out 0s;
+        }
+
+        .btn-primary:hover {
+            background-color: #fff;
+            color: blue;
+            transition: all .3s ease 0s;
+            transform: translateY(-3px);
+        }
+
+        /* Button hover effect */
+
+        /* text font size styling */
+        .text-fontsize-large {
+            font-size: large;
+        }
+
+        .card-title {
+            font-weight: 600;
+        }
+
+        /* text font size styling */
+
+        /* navbar styling starts */
+
+        ul.navbar-nav {
+            margin-left: auto;
+        }
+
+        li.nav-item {
+            margin-right: 40px;
+        }
+
+        .navbar-brand,
+        .title-brand {
+            font-family: 'Alegreya', serif;
+            font-weight: 900;
+            letter-spacing: 1.5px;
+        }
+
+        /* navbar styling ends */
+
+
+        /* home area styling starts */
+
+        .home-area {
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .home-title {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        #home-area-hi-img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .home-body {
+            margin-bottom: 25px;
+        }
+
+        .home-specialization {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .home-footer .btn1 {
+            margin-right: 20px;
+        }
+
+        /* home area styling ends  */
+
+        /* About area styling starts */
+
+        .about-area {
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .about-title {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .about-subtitle {
+            padding: 0 10%;
+            text-align: center;
+        }
+
+        /* about-area > skills */
+        .about-body,
+        .about-body-skills .about-body-skills-body {
+            margin-top: 20px;
+        }
+
+        .skillset div {
+            margin-top: 20px;
+        }
+
+        .skillset>div:hover {
+            color: blue;
+        }
+
+        .skillset div>i {
+            font-size: 48px;
+            align-items: center;
+        }
+
+        .skillset div>p {
+            text-align: center;
+        }
+
+        /* custom grid system to use 5 column layout for large screen*/
+        @media (min-width: 960px) {
+            .col-lg-2dot4 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+        }
+
+        /* about-area > skills  */
+
+        /* about-area > proficiency  */
+        .about-body-proficiency {
+            margin-top: 20px;
+        }
+
+        .about-body-proficiency-title {
+            margin-bottom: 20px;
+        }
+
+        .proficiency-meter {
+            text-align: left;
+        }
+
+        /* about-area > proficiency */
+        /* About area styling Ends */
+
+        /* Project area styling starts */
+        .projects-area {
+            padding-top: 70px;
+        }
+
+        .projects-title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+        /* Project area styling ends */
+
+        /* Contact area styling starts */
+        .contact-area {
+            padding-top: 70px;
+            padding-bottom: 50px;
+        }
+
+        .contact-title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+
+
+        .social-media-icon:hover {
+            color: blue;
+        }
+
+        /* Contact area styling ends */
+
+        footer{
+            background-color:#0066ff;
+            color: #ffffff;
+        }
+    </style>
+
+    <title> Partheeban D</title>
+
+</head>
+
+<body style="background-color:#f8f9fa">
+
+    <!-- Start nav section -->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">PD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- End nav section -->
+
+
+
+    <!-- Start home area -->
+
+    <div class="container-fluid home-area" id="home">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-lg-6 ">
+                <div class="align-middle">
+                    <h1 class="home-title">
+                        Hi <img id="home-area-hi-img" src="./images/hi.png" alt="">,
+                        I'm Partheeban
+                    </h1>
+                    <div class="home-body text-fontsize-large">
+                        Creative Entry-Level Software Engineer Providing Insightful Support.
+                        <div class="home-specialization">
+                            Native Mobile App developer | Web Developer.
+                        </div>
+                    </div>
+                    <div class="home-footer">
+                        <a type="button" class="btn btn-primary btn1" href="#contact">CONTACT ME</a>
+                        <a type="button" class="btn btn-primary"
+                            href="https://drive.google.com/file/d/1Eag1gPuMcMsRorFSnVNdmD9dRHIhg4Vh/view?usp=sharing" target="_blank">DOWNLOAD
+                            RESUME</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 pt-3">
+                <img src="./images/manOnTable.52be3144.svg" alt="" width="90%" height="90%">
+            </div>
+        </div>
+    </div>
+    <!-- End home area -->
+
+
+    <!-- Start About Area-->
+
+    <div class="container-fluid about-area" id="about">
+        <h1 class="about-title">
+            About
+        </h1>
+        <div class="about-subtitle text-fontsize-large">
+            As a Beginner in the Industrial field,
+            while making a positive contribution,
+            I would like to build a career, making
+            the best use of my analytical, creative
+            and logical skills to perform the job
+            efficiently.
+        </div>
+        <div class="container-fluid  about-body">
+            <!-- about body skills section starts -->
+            <div class="row align-items-center about-body-skills">
+                <div class="col-sm-12 col-lg-6 ">
+                    <img src="./images/developerActivity.59389695.svg" alt="Developer Activity Image" width="100%"
+                        height="100%">
+                </div>
+                <div class="col-sm-12 col-lg-6 about-body-skills-body text-fontsize-large">
+                    <h1>
+                        Skills
+                    </h1>
+                    <p>
+                        Crazy Native Mobile Application Developer and Web Developer
+                    </p>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center skillset">
+                            <div class="col-4 col-sm-3 col-lg-2dot4 ">
+                                <i class="fa fa-android" aria-hidden="true"></i>
+                                <p>android</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="fa fa-html5" aria-hidden="true"></i>
+                                <p>html-5</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="fa fa-css3 " aria-hidden="true"></i>
+                                <p>css-3</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="devicon-bootstrap-plain"></i>
+                                <p>bootstrap</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="devicon-javascript-plain"></i>
+                                <p>javascript</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="devicon-angularjs-plain"></i>
+                                <p>angular</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="devicon-java-plain"></i>
+                                <p>java</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="devicon-python-plain"></i>
+                                <p>python</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4">
+                                <i class="fa fa-database " aria-hidden="true"></i>
+                                <p>sql</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4 ">
+                                <i class="fas fa-fire"></i>
+                                <p>firebase</p>
+                            </div>
+                            <div class="col-4 col-sm-3 col-lg-2dot4 ">
+                                <i class="fa fa-github " aria-hidden="true"></i>
+                                <p>git</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- about body skill section ends -->
+
+            <!-- about body proficiency section starts -->
+            <div class="row align-items-center about-body-proficiency">
+                <div class="col-sm-12 col-md-6">
+                    <h1 class="about-body-proficiency-title">
+                        Proficiency
+                    </h1>
+                    <div class="proficiency-meter">
+                        <h5>Frontend/Design</h5>
+                        <div class="progress my-4">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proficiency-meter">
+                        <h5>Backend</h5>
+                        <div class="progress my-4">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proficiency-meter">
+                        <h5>Programming</h5>
+                        <div class="progress my-4">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="images/skill.34409398.svg" alt="" width="90%" height="90%">
+                </div>
+            </div>
+            <!-- about body proficiency section ends -->
+        </div>
+    </div>
+    <!-- End About Area -->
+
+    <!-- Start Projects area -->
+
+    <div class="container-fluid projects-area" id="projects">
+        <h1 class="projects-title">
+            Projects
+        </h1>
+        <div class="card-deck">
+            <div class="card text-center border-primary text-primary mb-3 project1">
+                <img class="card-img-top" src="./images/blood-donation.webp" alt="Blood Point" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title"> Blood Donor Management System</h5>
+                    <p class="card-text">An android application designed to automate the
+                        Blood Searching process during emergency cases and Ease of Searching Blood Donors in Near By
+                        Location.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/partheeband/Blood_Point" target="_blank" class="btn btn-primary">Explore
+                        Project >></a>
+                </div>
+            </div>
+            <div class="card text-center border-success text-success mb-3 project2">
+                <img class="card-img-top" src="./images/crime-report-management-system.jpg" alt="Crime Reporter"
+                    height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Crime Report Management System</h5>
+                    <p class="card-text">An android application designed to Report
+                        Crime or File a Vehicle or Person Missing Case and Ease of Maintaining Criminal Records through
+                        cloud database.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/partheeband/Crime-Report-Management-System" target="_blank"
+                        class="btn btn-primary">Explore Project >></a>
+                </div>
+            </div>
+            <div class="card text-center border-primary text-primary mb-3 project3">
+                <img class="card-img-top" src="./images/gpa-calculator.png" alt="Card image cap" height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">R17 GPA GENERATOR</h5>
+                    <p class="card-text">Android Application for Anna university🎓 Under Graduate (UG) students
+                        to calculate Grade Point Average(GPA) for all semesters and for all departments (Reg. 2017).
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/partheeband/R17GPAGENERATOR" target="_blank"
+                        class="btn btn-primary">Explore Project >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Projects area -->
+
+    <!-- Start Contact area -->
+
+    <div class="container-fluid contact-area" id="contact">
+        <h1 class="contact-title">Contact</h1>
+
+        <div class="row justify-content-center">
+            <p class="blockquote text-dark" style="font-size: x-large; text-align: center;">OK, LETS CREATE SOMETHING
+                GREAT</p>
+        </div>
+        <div class="row justify-content-center">
+            <p class="text-muted" style="font-size: larger; text-align: center;">If you like my work and have some cool
+                project to work on, just send me direct message or contact me through social sites listed below.</p>
+        </div>
+        <div class="container my-3">
+            <div class="row align-items-center text-center">
+                <div class="col social-media-icon">
+                    <i class="fab fa-linkedin" style="font-size: 48px;"></i>
+                    <p>LinkedIn</p>
+                </div>
+                <div class="col social-media-icon">
+                    <i class="fab fa-instagram" style="font-size: 48px;"></i>
+                    <p>Instagram</p>
+                </div>
+                <div class="col social-media-icon">
+                    <i class="fab fa-facebook" style="font-size: 48px;"></i>
+                    <p>Facebook</p>
+                </div>
+                <div class="col social-media-icon">
+                    <i class="fab fa-github" style="font-size: 48px;"></i>
+                    <p>Github</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Contact area -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020   Copyright: Partheeban D
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
