@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -20,193 +23,7 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
 
-    <style>
-        html{
-            scroll-behavior: smooth;
-        }
-        /* Button hover effect */
-        .btn-primary {
-            transition: all .3s ease-in-out 0s;
-        }
-
-        .btn-primary:hover {
-            background-color: #fff;
-            color: blue;
-            transition: all .3s ease 0s;
-            transform: translateY(-3px);
-        }
-
-        /* Button hover effect */
-
-        /* text font size styling */
-        .text-fontsize-large {
-            font-size: large;
-        }
-
-        .card-title {
-            font-weight: 600;
-        }
-
-        /* text font size styling */
-
-        /* navbar styling starts */
-
-        ul.navbar-nav {
-            margin-left: auto;
-        }
-
-        li.nav-item {
-            margin-right: 40px;
-        }
-
-        .navbar-brand,
-        .title-brand {
-            font-family: 'Alegreya', serif;
-            font-weight: 900;
-            letter-spacing: 1.5px;
-        }
-
-        /* navbar styling ends */
-
-
-        /* home area styling starts */
-
-        .home-area {
-            text-align: center;
-            padding-top: 100px;
-        }
-
-        .home-title {
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-
-        #home-area-hi-img {
-            width: 40px;
-            height: 40px;
-            margin-bottom: 10px;
-        }
-
-        .home-body {
-            margin-bottom: 25px;
-        }
-
-        .home-specialization {
-            margin-top: 15px;
-            font-weight: bold;
-        }
-
-        .home-footer .btn1 {
-            margin-right: 20px;
-        }
-
-        /* home area styling ends  */
-
-        /* About area styling starts */
-
-        .about-area {
-            text-align: center;
-            padding-top: 80px;
-        }
-
-        .about-title {
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-
-        .about-subtitle {
-            padding: 0 10%;
-            text-align: center;
-        }
-
-        /* about-area > skills */
-        .about-body,
-        .about-body-skills .about-body-skills-body {
-            margin-top: 20px;
-        }
-
-        .skillset div {
-            margin-top: 20px;
-        }
-
-        .skillset>div:hover {
-            color: blue;
-        }
-
-        .skillset div>i {
-            font-size: 48px;
-            align-items: center;
-        }
-
-        .skillset div>p {
-            text-align: center;
-        }
-
-        /* custom grid system to use 5 column layout for large screen*/
-        @media (min-width: 960px) {
-            .col-lg-2dot4 {
-                -webkit-box-flex: 0;
-                -ms-flex: 0 0 20%;
-                flex: 0 0 20%;
-                max-width: 20%;
-            }
-        }
-
-        /* about-area > skills  */
-
-        /* about-area > proficiency  */
-        .about-body-proficiency {
-            margin-top: 20px;
-        }
-
-        .about-body-proficiency-title {
-            margin-bottom: 20px;
-        }
-
-        .proficiency-meter {
-            text-align: left;
-        }
-
-        /* about-area > proficiency */
-        /* About area styling Ends */
-
-        /* Project area styling starts */
-        .projects-area {
-            padding-top: 70px;
-        }
-
-        .projects-title {
-            text-align: center;
-            font-weight: 600;
-            margin-bottom: 40px;
-        }
-
-        /* Project area styling ends */
-
-        /* Contact area styling starts */
-        .contact-area {
-            padding-top: 70px;
-            padding-bottom: 50px;
-        }
-
-        .contact-title {
-            text-align: center;
-            font-weight: 600;
-            margin-bottom: 40px;
-        }
-
-
-        .social-media-icon:hover {
-            color: blue;
-        }
-
-        /* Contact area styling ends */
-
-        footer{
-            background-color:#0066ff;
-            color: #ffffff;
-        }
-    </style>
+    
 
     <title> Partheeban D</title>
 
@@ -264,7 +81,8 @@
                     <div class="home-footer">
                         <a type="button" class="btn btn-primary btn1" href="#contact">CONTACT ME</a>
                         <a type="button" class="btn btn-primary"
-                            href="https://drive.google.com/file/d/1Eag1gPuMcMsRorFSnVNdmD9dRHIhg4Vh/view?usp=sharing" target="_blank">DOWNLOAD
+                            href="https://drive.google.com/file/d/1Eag1gPuMcMsRorFSnVNdmD9dRHIhg4Vh/view?usp=sharing"
+                            target="_blank">DOWNLOAD
                             RESUME</a>
                     </div>
                 </div>
@@ -303,7 +121,7 @@
                         Skills
                     </h1>
                     <p>
-                        Crazy Native Mobile Application Developer and Web Developer
+                        Native Mobile Application Developer and Web Developer
                     </p>
                     <div class="container-fluid">
                         <div class="row justify-content-center skillset">
@@ -467,21 +285,29 @@
         </div>
         <div class="container my-3">
             <div class="row align-items-center text-center">
-                <div class="col social-media-icon">
-                    <i class="fab fa-linkedin" style="font-size: 48px;"></i>
-                    <p>LinkedIn</p>
+                <div class="col social-media-icon" onclick="javascript:window.location.href='https://www.linkedin.com/in/partheeband/' ">
+                    <a>
+                        <i class="fab fa-linkedin" style="font-size: 48px;"></i>
+                        <p>LinkedIn</p>
+                    </a>
                 </div>
-                <div class="col social-media-icon">
-                    <i class="fab fa-instagram" style="font-size: 48px;"></i>
-                    <p>Instagram</p>
+                <div class="col social-media-icon" onclick="javascript:window.location.href='https://www.instagram.com/partheeban_d/' ">
+                    <a>
+                        <i class="fab fa-instagram" style="font-size: 48px;"></i>
+                        <p>Instagram</p>
+                    </a>
                 </div>
-                <div class="col social-media-icon">
-                    <i class="fab fa-facebook" style="font-size: 48px;"></i>
-                    <p>Facebook</p>
+                <div class="col social-media-icon" onclick="javascript:window.location.href='https://www.facebook.com/partha.parthi.1282000' ">
+                    <a>
+                        <i class="fab fa-facebook" style="font-size: 48px;"></i>
+                        <p>Facebook</p>
+                    </a>
                 </div>
-                <div class="col social-media-icon">
-                    <i class="fab fa-github" style="font-size: 48px;"></i>
-                    <p>Github</p>
+                <div class="col social-media-icon" onclick="javascript:window.location.href='https://github.com/partheeband' ">
+                    <a>
+                        <i class="fab fa-github" style="font-size: 48px;"></i>
+                        <p>Github</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -493,7 +319,7 @@
     <footer class="page-footer font-small">
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020   Copyright: Partheeban D
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Partheeban D
         </div>
         <!-- Copyright -->
 
